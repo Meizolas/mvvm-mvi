@@ -10,7 +10,7 @@ Aplicativo Flutter Web criado para comparar duas abordagens de arquitetura, MVVM
 
 ## Como rodar
 
-Instale as dependencias:
+Instale as dependências:
 
 ```bash
 flutter pub get
@@ -22,7 +22,7 @@ Rode o app no navegador:
 flutter run -d chrome
 ```
 
-## Metricas estaticas
+## Métricas estáticas
 
 O projeto inclui um script simples para gerar metricas comparativas entre as pastas MVVM e MVI:
 
@@ -38,11 +38,11 @@ dart run tool/static_metrics.dart > static_metrics.csv
 
 ## Estrutura principal
 
-- `lib/mvvm`: telas e ViewModels da versao MVVM.
-- `lib/mvi`: telas, eventos, estados e BLoCs da versao MVI.
-- `lib/shared`: modelos, repositorio em memoria, servicos e utilitarios compartilhados.
+- `lib/mvvm`: telas e ViewModels da versão MVVM.
+- `lib/mvi`: telas, eventos, estados e BLoCs da versão MVI.
+- `lib/shared`: modelos, repositório em memória, servicos e utilitarios compartilhados.
 - `tool/static_metrics.dart`: script de contagem de linhas, classes e arquivos.
 
 ## Observacao
 
-O armazenamento e feito em memoria para manter o projeto simples e compativel com Flutter Web. Ao recarregar a pagina, os dados cadastrados sao perdidos.
+O armazenamento e feito em memória para manter o projeto simples e compativel com Flutter Web. Ao recarregar a página, os dados cadastrados são perdidos.

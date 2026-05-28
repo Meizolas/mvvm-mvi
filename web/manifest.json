@@ -1,0 +1,11 @@
+{
+  "name": "MVVM vs MVI Tasks",
+  "short_name": "Tasks",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f7f7fb",
+  "theme_color": "#3f5f8f",
+  "description": "Experimento comparativo MVVM vs MVI em Flutter Web.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false
+}

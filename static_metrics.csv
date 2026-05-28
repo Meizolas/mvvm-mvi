@@ -1,0 +1,11 @@
+arquitetura,metrica,valor
+mvvm,total_linhas,724
+mvvm,num_classes,13
+mvvm,num_arquivos,7
+mvvm,linhas_viewmodels,180
+mvvm,linhas_views,544
+mvi,total_linhas,904
+mvi,num_classes,30
+mvi,num_arquivos,11
+mvi,linhas_blocs,338
+mvi,linhas_views,566
